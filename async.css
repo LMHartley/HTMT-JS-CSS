@@ -1,0 +1,92 @@
+body{
+    background-image: url(hero.png);
+    background-size: 1300px 625px;
+}
+
+
+div[id="maininfo"]{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    max-width: 500px;
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+h2[id="membersElement"]{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    max-width: 500px;
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+div[id="header"],[id="select"],[id="buttons"]{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    max-width: 500px;
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+h1[id="hometext"]{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 30px;
+letter-spacing: -1.4px;
+word-spacing: -0.6px;
+color: #000000;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+button:hover {
+    background-color: #2ea8a8;
+    color: white;
+}
+h4{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 21px;
+letter-spacing: -1.4px;
+word-spacing: -0.6px;
+color: #000000;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+}
+
+img[id="gif"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+    width: 40%;
+}

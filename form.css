@@ -1,0 +1,109 @@
+body{
+    background-image: url(money.gif);
+    background-size: 1300px 625px;
+    background-repeat: no-repeat
+}
+h1{
+    text-align: center;
+    color: white
+}
+div[class=namedetails]{
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+div[class=logindetails]{
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+div[class=addressdetails]{
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+div[class=bankdetails]{
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+div[class=namedetails]{
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+.namedetails {
+    width: 500px;
+    clear: both;
+    color: white;
+}
+.namedetails input{
+    width: 500px;
+    clear: both;
+    border-radius: 15px;
+}
+.namedetails input:hover{
+    border-block-color: red;
+}
+.logindetails {
+    width: 500px;
+    clear: both;
+    color: white;
+}
+.logindetails input{
+    width: 500px;
+    clear: both;
+    border-radius: 15px;
+}
+.logindetails input:hover{
+    border-block-color: red;
+}
+.addressdetails{
+    width: 500px;
+    clear: both;
+    color: white;
+}
+.addressdetails input{
+    width: 504px;
+    clear: both;
+    border-radius: 15px;
+}
+.addressdetails input:hover{
+    border-block-color: red;
+}
+.addressdetails select{
+    width: 504px;
+    clear: both;
+    border-radius: 15px;
+}
+.addressdetails select:hover{
+    border-block-color: red;
+}
+.bankdetails {
+    width: 500px;
+    clear: both;
+    color: white;
+}
+.bankdetails input{
+    width: 500px;
+    clear: both;
+    border-radius: 15px;
+}
+.bankdetails input:hover{
+    border-block-color: red;
+}
+.bankdetails select{
+    width: 504px;
+    clear: both;
+    border-radius: 15px;
+}
+.bankdetails select:hover{
+    border-block-color: red;
+}
+button{
+    margin: 10px;
+    border-radius: 15px;
+}
+button:hover{
+    border-block-color: red;
+}

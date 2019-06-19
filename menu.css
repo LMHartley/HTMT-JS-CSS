@@ -1,0 +1,15 @@
+body{
+    background-image: url(menu.gif);
+    background-size: 1300px 625px;
+    background-repeat: no-repeat;
+}
+
+div[id="homepage"]{
+    text-align: center;
+}
+div[id="register button"]{
+    text-align: center;
+}
+button{
+    border-radius: 15px;
+}

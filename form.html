@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="form.css"> 
+        <body>
+        <form action="/storage.txt" method="get" onsubmit="return handleSubmit(this)" class="form">
+           <div id="header"></div>
+                <h1>Sign up for free bitcoins</h1>
+            </div>
+            <div class="namedetails">
+                <label for="input">    First Name    </label>
+                <input type="text" name="firstname" id="firstname">
+                <label for="input">Surname</label>
+                <input type="text" name="surname" id="surname">
+            </div>
+            <div class="logindetails">
+                <label for="input">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="input">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div class=addressdetails>
+                <label for="input">First Line of Address</label>
+                <input type="search" name="floa" id="floa">
+                <label for="input">Select Postcode</label>
+                <select name="results" id="results">
+                        <option value="   "></option>
+                        <option value="sn1">SN1</option>
+                        <option value="sn2">SN2</option>
+                        <option value="sn3">SN3</option>
+                        <option value="sn4">SN4</option>
+                </select>
+            </div>
+            <div class="bankdetails">
+                <label for="bankdetails">Long Card Number</label>
+                <input type="text" name="longcard" id="longcard">
+                <label for="bankdetails">Expiration Date</label>
+                <select name="expirationmonth" id="expirationmonth">
+                        <option value="   "></option>
+                        <option value="Jan">January</option>
+                        <option value="Feb">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                </select>
+                <select name="expirationyear" id="expirationyear">
+                        <option value="   "></option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                </select>
+                <button id="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+        <script src="form.js"></script>
+        <script src="arrayprocessing.js"></script>
+        </body>
+    </head>
