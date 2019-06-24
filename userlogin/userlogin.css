@@ -1,0 +1,43 @@
+body{
+    background-image: url(redbackground.png);
+    background-repeat: no-repeat;
+    background-size: 1300px 625px;
+}
+
+label[id="logintext"]{
+    color: white;
+}
+small[id="emailHelp"]{
+    color: white;
+}
+form[id="login"]{
+    margin-top: 10px;
+    text-align: center;
+    max-width: 500px;
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+form[id="register"]{
+    margin-top: 10px;
+    text-align: center;
+    max-width: 500px;
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+div[id="userinfo"]{
+    color: rgb(12, 12, 12);
+}
+div[id="FD"]{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    max-width: 500px;
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}

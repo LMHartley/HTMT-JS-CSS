@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            
+            <form>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="button" onclick="add()" value="click">
+                <input type="button" onclick="reset()" value="reset">
+            </form>
+        </body>
+        <script>
+        function add(){
+            var T1 = window.document.forms[0].elements[0];
+            var T2 = window.document.forms[0].elements[1];
+            var T3 = window.document.forms[0].elements[2];
+
+
+            if(T1.value=="" && T2.value ==""){
+                window.alert("both fields empty");
+            }
+            else if(T1.value==""){
+                window.alert("First number empty")
+                T1.focus();
+            }
+            else if(T2.value==""){
+                window.alert("Second number empty")
+                T2.focus();
+            }
+            else{
+                T3.value = parseInt(T1.value)+parseInt(T2.value);
+            }
+
+        }
+        function reset(){
+            var T1 = window.document.forms[0].elements[0];
+            var T2 = window.document.forms[0].elements[1];
+            var T3 = window.document.forms[0].elements[2];
+
+            T1.value = "";
+            T2.value = "";
+            T3.value = "";
+        }
+        </script>
+    </head>
+</html>

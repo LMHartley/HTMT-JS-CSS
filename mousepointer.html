@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <body onmousemove="doSomething()">
+            <span id="x" style="position:absolute;top:0;left:0">
+                Nationwide
+            </span>
+        </body>
+        <script>
+            function doIt(){
+                var ref = document.getElementById("x");
+                ref.style.top=window.event.clientY;
+                ref.style.left=window.event.clientX;
+            }
+            function doSomething(){
+                var x = event.clientX;
+                var y = event.clientY;
+                if(event.ctrlKey){
+                    var obj = new Draw(y,x,"red");
+                }
+                else if(event.altKey){
+                    var obj = new Draw(y,x,"blue");
+                }
+                else{
+                    var obj = new Draw(y,x,"black");
+                }
+            }
+            class Draw{
+                constructor(t,l,colour){
+                    var ref = document.createElement("span");
+                    ref.innerHTML="TEST";
+                    ref.style.position="absolute";
+                    ref.style.color=colour;
+                    ref.style.top=t;
+                    ref.style.left=l;
+                    document.body.appendChild(ref);
+                }
+                
+            }
+        </script>
+    </head>
+</html>

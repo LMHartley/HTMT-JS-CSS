@@ -4,7 +4,6 @@ function fetchSuperHeroes(superhero){
     request.onload = function(){
         const parsedData = JSON.parse(request.responseText);
         console.log("DATA:", parsedData);
-        //displaySuperheroData(parsedData);
         displayMembers(parsedData,superhero);
         displayData(parsedData);
     }
@@ -100,4 +99,10 @@ function bmload(){
 }
 function shsload(){
     window.location="shs.html";
+}
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
 }
